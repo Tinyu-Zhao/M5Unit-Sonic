@@ -1,8 +1,8 @@
 on:
   push:
-    branches: [ master, test ]
+    branches: [ master ]
   pull_request:
-    branches: [ master, test ]
+    branches: [ master ]
 jobs:
   lint:
     runs-on: ubuntu-latest
