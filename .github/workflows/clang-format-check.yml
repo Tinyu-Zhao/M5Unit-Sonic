@@ -13,5 +13,3 @@ jobs:
           library-manager: update
           compliance: strict
           project-type: all
-
-          
