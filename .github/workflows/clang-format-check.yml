@@ -9,7 +9,7 @@ jobs:
     name: Lint Check
     runs-on: ubuntu-latest
     steps:
-      - name: checks for common problems in Arduino project.
+      - name: checks for common problems in Arduino project
       - uses: actions/checkout@v2
       - uses: arduino/arduino-lint-action@v1
         with:
