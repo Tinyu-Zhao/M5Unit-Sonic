@@ -12,7 +12,6 @@ jobs:
         with:
           library-manager: update
           compliance: strict
-          project-type: |
-            sketch
-            library
+          project-type: all
+
           
