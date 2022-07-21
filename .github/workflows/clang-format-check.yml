@@ -1,3 +1,4 @@
+name: Arduino Lint Check
 on:
   push:
     branches: [ master ]
@@ -5,6 +6,7 @@ on:
     branches: [ master ]
 jobs:
   lint:
+    name: Lint Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
