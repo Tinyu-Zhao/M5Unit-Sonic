@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: arduino/arduino-lint-action@v1
       - name: checks for common problems in Arduino project.
+      - uses: arduino/arduino-lint-action@v1
         with:
           library-manager: update
           compliance: strict
