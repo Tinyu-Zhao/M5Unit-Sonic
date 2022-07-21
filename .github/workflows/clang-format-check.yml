@@ -13,6 +13,6 @@ jobs:
           library-manager: update
           compliance: strict
           project-type: |
-            - sketch
-            - library
+            sketch
+            library
           
