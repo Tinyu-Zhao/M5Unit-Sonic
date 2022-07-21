@@ -5,11 +5,9 @@ on:
     branches: [ master ]
 jobs:
   lint:
-    name: Lint Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: checks for common problems in Arduino project.
       - uses: arduino/arduino-lint-action@v1
         with:
           library-manager: update
